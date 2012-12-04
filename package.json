@@ -1,0 +1,13 @@
+{
+  "name": "zepto.labelsFix",
+  "description": "Zepto plugin to ensures that labels will highlight the correct input when touched",
+  "version": "0.1.0",
+  "dependencies": {
+    "zepto": "*"
+  },
+  "main": "zepto.labelsFix.js",
+  "jam": {
+    "main": "zepto.labelsFix.js",
+    "include": ["zepto.labelsFix.js"]
+  }
+}
