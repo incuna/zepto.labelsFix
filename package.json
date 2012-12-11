@@ -8,6 +8,10 @@
   "main": "zepto.labelsFix.js",
   "jam": {
     "main": "zepto.labelsFix.js",
-    "include": ["zepto.labelsFix.js"]
+    "include": ["zepto.labelsFix.js"],
+    "dependencies": {
+      "zepto": "*"
+    },
+    "shim": { "deps": [ "zepto" ] }
   }
 }
